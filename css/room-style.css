@@ -1,0 +1,236 @@
+/*Basic Start*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#master {
+	margin-top: 60px;
+}
+
+#master h2 {
+	color: #000;
+	font-size: 2rem;
+}
+#master p {
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: #000;
+	margin-bottom: 50px;
+
+}
+.symbol { 
+	margin-bottom: 20px;
+
+}
+.parent .caption .price p {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.fa:hover {
+	background-color: #cdaf87;
+	transition: all 0.3s;
+}
+/*Basic End*/
+
+/*Preloder Start Heare*/
+
+.preloder {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #ddd;
+	z-index: 1000;
+}
+
+.preloder .fa {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/*Preloder End Heare*/
+
+/*Nav bar Start Heare*/
+.navbar-brand img {
+	height: auto;
+	width: 150px;
+	padding-right : 70px;
+}
+.red {
+    background-color: #283c5a !important;
+}
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+	padding-left: 50px;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:focus, .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #1d1e1f;
+    background-color: #283c5a;
+}
+.dropdown-menu {
+	background-color: #264b83;
+}
+.navbar .dropdown-menu a {
+    color: #fff !important;
+}
+
+
+/*Nav bar End Heare*/
+
+/*==== section start here======*/
+
+.img{
+	max-width: 100%;
+  }
+.parent {
+	position: relative;
+	overflow: hidden;
+}
+.caption {
+	position: absolute;
+	transition: all 0.3s;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+14,0.45+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 14%, rgba(0,0,0,0.45) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 14%,rgba(0,0,0,0.45) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 14%,rgba(0,0,0,0.45) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#73000000',GradientType=0 ); /* IE6-9 */
+}
+.parent .caption h1 {
+	position: absolute;
+	bottom: 15px;
+	text-align: center;
+	width: 100%;
+	z-index: 500;
+	color: #fff;
+	transform: translateY(50%);
+	transition: all 0.3s;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+.parent:hover .caption{
+	background-color: rgba(0,0,0,0.6);
+
+}
+.parent:hover .caption h1{
+	bottom: 50%;
+}
+
+
+.panel1 {
+	background-color: #f2f0eb;
+}
+. {
+	margin-bottom: 100px;
+}
+
+.color {
+	color: #000;
+}
+.master-section {
+	margin: 70px 0;
+}
+#panel .room-form {
+    background-color: #283c5a;
+}
+
+/*Media Quere*/
+
+/*@media (min-width: 962px) {*/
+  #gallery .img-gape,
+  #master .img-gape {
+  	margin-bottom: 40px;
+  }
+
+#gallery-1 .img-gape {
+  	margin-bottom: 40px;
+  }
+
+/*Media Quere*/
+
+/*==== footer start here=====*/
+
+/*Fotter Section Start Heare*/
+
+.page-footer {
+	padding: 90px 0;
+}
+
+.mdb-color.lighten-3 {
+    background-image: url("../img/bg.jpg");
+
+}
+
+.parent .caption .price h3, p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.mdb-color.lighten-3 .my-4 ul li .fa {
+	border: 1px #ddd solid;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+.mdb-color.lighten-3 .my-4 ul li {
+	padding-bottom: 20px;
+}
+
+.footer-logo img {
+	height: auto;
+	width: 100px;	
+}
+
+#footer {
+	background-color: #1f1f1f;
+}
+
+#footer {
+	padding: 20px 0;
+}
+
+.footer-menu {
+	display: flex;
+}
+.footer-menu li a{
+	list-style-type: none;
+	padding-right: 10px;
+}
+.footer-menu li{
+	list-style-type: none;
+}
+.footer-menu li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 0 10px;
+}
+
+/*Footer Section End Heare*/
+
+
+/*Media Quere*/
+
+@media (min-width: 992px) {
+  #carosol  h1 {
+	font-size: 40px;
+}
+ #carosol  h2 {
+	/*padding: 200px 0 20px 0;*/
+	font-size: 30px;
+}
+#carosol {
+	padding: 250px 0;
+}
+
+}
+/*Media Quere*/
